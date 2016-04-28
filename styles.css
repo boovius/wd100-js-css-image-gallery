@@ -1,0 +1,46 @@
+ul {
+  list-style: none;
+}
+
+.list-image {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.list-image:hover {
+  outline: 1px solid purple;
+}
+
+.list-image img {
+  height: 100%;
+  width: 100%;
+}
+
+#list-top li {
+  display: inline-block;
+}
+
+#list-left {
+  float: left;
+}
+
+#display-container {
+  float: left;
+  border: 1px solid blue;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+#display {
+  height: 500px;
+  width: 500px;
+}
+
+#list-left-bottom {
+  position: absolute;
+  margin: 0;
+  bottom: -200px;
+  right: 0px;
+}
